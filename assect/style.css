@@ -188,7 +188,7 @@ ul {
 /* service */
 .service {
   padding: 170px 0;
-  background: blanchedalmond;
+  background: #fff;
 }
 
 .service__info {
@@ -272,4 +272,60 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* works */
+
+/* works-top */
+.works-desc {
+  width: 468px;
+}
+
+/* works-bot */
+.works-bot {
+  padding-top: 86px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+}
+
+.works-bot__item {
+  padding: 43px 42px;
+  background: #fff;
+  border: 16px solid #eaf6ff;
+  transition: 0.25s;
+}
+
+.works-bot__item:hover {
+  border-color: #2e80ce;
+  transform: translateY(-16px);
+}
+
+.works-bot__logo {
+  width: 72px;
+  height: 72px;
+}
+
+.work-bot__info {
+  margin-top: 18px;
+  color: #10375c;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.38;
+}
+
+.works-bot__desc {
+  margin-top: 28px;
+  width: 254px;
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75;
+}
+
+.works-bot__spans {
+  margin-top: 18px;
+  display: inline-block;
+  font-size: 1.6rem;
+  line-height: 1.75;
 }
