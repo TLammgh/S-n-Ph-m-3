@@ -329,3 +329,51 @@ ul {
   font-size: 1.6rem;
   line-height: 1.75;
 }
+
+/* take-backs */
+.backs .container {
+  padding-top: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.backs__img {
+  display: flex;
+}
+
+.backs__img--img1 {
+  width: 512px;
+  height: 370px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.backs__img--img2 {
+  width: 332px;
+  height: 370px;
+  border-radius: 6px;
+  object-fit: cover;
+  margin-top: 121px;
+  margin-left: -274px;
+}
+
+/* backs-right */
+.backs__right--info {
+  width: 470px;
+  margin-top: 0;
+}
+
+.backs__right--desc {
+  margin-top: 18px;
+  width: 468px;
+}
+
+.backs__right--action {
+  margin-top: 38px;
+  width: 205px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
